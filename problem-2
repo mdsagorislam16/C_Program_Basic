@@ -1,0 +1,8 @@
+
+#include <stdio.h>
+
+int main() {
+    printf("My name is md sagor islam.\nI am currently working on Full Stack Projects (MERN).\nRecently completed JavaScript and TypeScript, now learning C programming\n");
+
+    return 0;
+}
