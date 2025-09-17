@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    // a + bi : প্রথম complex number এর real এবং imaginary part
+    float a, b;
+    // c + di : দ্বিতীয় complex number এর real এবং imaginary part
+    float c, d;
+
+    // প্রথম complex number input (real part এবং imaginary part)
+    printf("Enter first complex number (real and imaginary part): ");
+    scanf("%f %f", &a, &b);  // উদাহরণ: 3 4 => 3 + 4i
+
+    // দ্বিতীয় complex number input (real part এবং imaginary part)
+    printf("Enter second complex number (real and imaginary part): ");
+    scanf("%f %f", &c, &d);  // উদাহরণ: 1 2 => 1 + 2i
+
+    // যোগফল: (a+c) + (b+d)i
+    printf("Sum = %.2f + %.2fi\n", a + c, b + d);  
+
+    return 0;
+}
